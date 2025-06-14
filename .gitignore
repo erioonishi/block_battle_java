@@ -1,0 +1,37 @@
+# ビルド出力
+/bin/
+/build/
+/out/
+
+# Eclipse関連ファイル
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# IntelliJ関連ファイル
+.idea/
+*.iml
+*.iws
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# その他
+*.jar
+*.war
+*.ear
+
+# VSCode（使っていれば）
+.vscode/
+
+# テストレポート・キャッシュなど（あれば）
+/target/
+/.gradle/
+/.mvn/
+/node_modules/
